@@ -1,0 +1,165 @@
+<!DOCTYPE html5>
+<html>
+
+<head>
+	<title>bootstrap practice</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<style>
+		.jumbotron {
+			background-image: url('http://demo.phpgang.com/crop-images/demo_files/pool.jpg');
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid"><!--fluid 빼봐 ㅋ-->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span> 
+	      </button>
+	      <a class="navbar-brand" href="#">I am J</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#">Home</a></li>
+	        <li><a href="#">Page 1</a></li>
+	        <li><a href="#">Page 2</a></li> 
+	        <li><a href="#">Page 3</a></li> 
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#"><span class="glyphicon glyphicon-trash"></span> Sign Up</a></li>
+	        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1>점보</h1>
+			<p>점보트론을 해보자</p>
+
+					<!-- Trigger the modal with a button -->
+		<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+		<!-- Modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">Modal Header</h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>Some text in the modal.</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+
+		  </div>
+		</div>
+			
+			
+		</div>
+
+
+
+	</div>
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#myCarousel" data-slide-to="1"></li>
+	    <li data-target="#myCarousel" data-slide-to="2"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner">
+	    <div class="item active">
+	      <img src="la.jpg" alt="Los Angeles">
+	    </div>
+
+	    <div class="item">
+	      <img src="chicago.jpg" alt="Chicago">
+	    </div>
+
+	    <div class="item">
+	      <img src="ny.jpg" alt="New York">
+	    </div>
+	  </div>
+
+	  <!-- Left and right controls -->
+	  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+
+	<table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Default</td>
+        <td>Defaultson</td>
+        <td>def@somemail.com</td>
+      </tr>      
+      <tr class="success">
+        <td>Success</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr class="danger">
+        <td>Danger</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr class="info">
+        <td>Info</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+      <tr class="warning">
+        <td>Warning</td>
+        <td>Refs</td>
+        <td>bo@example.com</td>
+      </tr>
+      <tr class="active">
+        <td>Active</td>
+        <td>Activeson</td>
+        <td>act@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+
+
+</html>
